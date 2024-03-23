@@ -11,6 +11,9 @@ import Footer from "./Footer";
 import NextButton from "./NextButton";
 import Timer from "./Timer";
 import FinishScreen from "./FinishScreen";
+import questionsData from "./data/questions.json";
+
+console.log(questionsData);
 
 const NUM_QUESTIONS = 15;
 const SECS_PER_QUESTION = 10;
@@ -32,6 +35,7 @@ const initialState = {
 function reducer(state, action) {
   switch (action.type) {
     case "dataRecieved":
+      console.log(action.payload);
       return {
         ...state,
         status: "ready",
@@ -119,10 +123,20 @@ function App() {
   ] = useReducer(reducer, initialState);
 
   useEffect(() => {
-    fetch("http://localhost:5000/questions")
-      .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataRecieved", payload: data }))
-      .catch((err) => dispatch({ type: "dataFailed" }));
+    // *****IF YOU WANT TO USE THIS WITH JSON SERVER USE "npm run server" AND USE THIS MARKED PORTION.
+    // fetch("http://localhost:5000/questions")
+    //   .then((res) => res.json())
+    //   .then((data) => dispatch({ type: "dataRecieved", payload: data }))
+    //   .catch((err) => dispatch({ type: "dataFailed" }));
+    //..............................................................................................................
+    // Simulating asynchronous data fetching
+    try {
+      setTimeout(() => {
+        dispatch({ type: "dataRecieved", payload: questionsData.questions });
+      }, "2000");
+    } catch (error) {
+      dispatch({ type: "dataFailed" });
+    }
   }, []);
 
   return (
