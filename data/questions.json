@@ -303,6 +303,126 @@
       ],
       "correctOption": 0,
       "points": 50
+    },
+    {
+      "id": 38,
+      "question": "What is the official language of Brazil?",
+      "options": ["Spanish", "Portuguese", "French", "English"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "id": 39,
+      "question": "What is the largest active volcano in the world?",
+      "options": ["Mount Fuji", "Mount Etna", "Mauna Loa", "Mount Vesuvius"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "id": 40,
+      "question": "Which country is known as the 'Land of Smiles'?",
+      "options": ["Thailand", "Vietnam", "Cambodia", "Laos"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "id": 41,
+      "question": "What is the world's deepest lake?",
+      "options": ["Lake Baikal", "Caspian Sea", "Lake Crater", "Dead Sea"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 42,
+      "question": "Which city is home to the Colosseum?",
+      "options": ["Rome", "Athens", "Florence", "Naples"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 43,
+      "question": "What is the Great Barrier Reef located near?",
+      "options": ["Australia", "New Zealand", "Fiji", "Indonesia"],
+      "correctOption": 0,
+      "points": 40
+    },
+    {
+      "id": 44,
+      "question": "Which country has the most pyramids?",
+      "options": ["Egypt", "Sudan", "Mexico", "Peru"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "id": 45,
+      "question": "What is the driest desert in the world?",
+      "options": [
+        "Atacama Desert",
+        "Sahara Desert",
+        "Gobi Desert",
+        "Kalahari Desert"
+      ],
+      "correctOption": 0,
+      "points": 40
+    },
+    {
+      "id": 46,
+      "question": "Which sea separates Europe from Africa?",
+      "options": ["Mediterranean Sea", "Red Sea", "Black Sea", "Aegean Sea"],
+      "correctOption": 0,
+      "points": 50
+    },
+    {
+      "id": 47,
+      "question": "What is the tallest building in the world?",
+      "options": [
+        "Burj Khalifa",
+        "Shanghai Tower",
+        "Abrj Al-Bait Clock Tower",
+        "One World Trade Center"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "id": 48,
+      "question": "Which country is famous for its flamenco dancing?",
+      "options": ["Spain", "Portugal", "Italy", "Greece"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "id": 49,
+      "question": "What is the largest freshwater lake by volume?",
+      "options": [
+        "Lake Superior",
+        "Lake Victoria",
+        "Lake Huron",
+        "Lake Michigan"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 50,
+      "question": "Which is the smallest country in the world?",
+      "options": ["Vatican City", "Monaco", "Nauru", "Tuvalu"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 51,
+      "question": "What is the official currency of the European Union?",
+      "options": ["Euro", "British Pound", "Swiss Franc", "US Dollar"],
+      "correctOption": 0,
+      "points": 40
+    },
+    {
+      "id": 52,
+      "question": "Which country is known as the 'Land of a Thousand Hills'?",
+      "options": ["Rwanda", "Burundi", "Uganda", "Kenya"],
+      "correctOption": 0,
+      "points": 40
     }
   ]
 }
